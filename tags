@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	.\scanwin32.py	/^BOOL = ctypes.c_int$/;"	v
+CHAR	.\scanwin32.py	/^CHAR = ctypes.c_char$/;"	v
+Clone	.\wxTerminal.py	/^    def Clone(self):$/;"	m	class:SerialRxEvent
+ComPortThread	.\wxTerminal.py	/^    def ComPortThread(self):$/;"	m	class:TerminalFrame
+DIGCF_DEVICEINTERFACE	.\scanwin32.py	/^DIGCF_DEVICEINTERFACE = 16$/;"	v
+DIGCF_PRESENT	.\scanwin32.py	/^DIGCF_PRESENT = 2$/;"	v
+DWORD	.\scanwin32.py	/^DWORD = ctypes.c_ulong$/;"	v
+ERROR_INSUFFICIENT_BUFFER	.\scanwin32.py	/^ERROR_INSUFFICIENT_BUFFER = 122$/;"	v
+ERROR_NO_MORE_ITEMS	.\scanwin32.py	/^ERROR_NO_MORE_ITEMS = 259$/;"	v
+EVT_SERIALRX	.\wxTerminal.py	/^EVT_SERIALRX = wx.PyEventBinder(SERIALRX, 0)$/;"	v
+GUID	.\scanwin32.py	/^class GUID(ctypes.Structure):$/;"	c
+GUID_CLASS_COMPORT	.\scanwin32.py	/^GUID_CLASS_COMPORT = GUID(0x86e0d1e0L, 0x8089, 0x11d0,$/;"	v
+HDEVINFO	.\scanwin32.py	/^HDEVINFO = ctypes.c_int$/;"	v
+HWND	.\scanwin32.py	/^HWND = ctypes.c_uint$/;"	v
+ID_CLEAR	.\wxTerminal.py	/^ID_CLEAR        = wx.NewId()$/;"	v
+ID_EXIT	.\wxTerminal.py	/^ID_EXIT         = wx.NewId()$/;"	v
+ID_SAVEAS	.\wxTerminal.py	/^ID_SAVEAS       = wx.NewId()$/;"	v
+ID_SETTINGS	.\wxTerminal.py	/^ID_SETTINGS     = wx.NewId()$/;"	v
+ID_TERM	.\wxTerminal.py	/^ID_TERM         = wx.NewId()$/;"	v
+INVALID_HANDLE_VALUE	.\scanwin32.py	/^INVALID_HANDLE_VALUE = 0$/;"	v
+MyApp	.\wxSerialConfigDialog.py	/^class MyApp(wx.App):$/;"	c
+MyApp	.\wxTerminal.py	/^class MyApp(wx.App):$/;"	c
+NEWLINE_CR	.\wxTerminal.py	/^NEWLINE_CR      = 0$/;"	v
+NEWLINE_CRLF	.\wxTerminal.py	/^NEWLINE_CRLF    = 2$/;"	v
+NEWLINE_LF	.\wxTerminal.py	/^NEWLINE_LF      = 1$/;"	v
+NULL	.\scanwin32.py	/^NULL = 0$/;"	v
+OnCancel	.\wxSerialConfigDialog.py	/^    def OnCancel(self, events):$/;"	m	class:SerialConfigDialog
+OnCancel	.\wxTerminal.py	/^    def OnCancel(self, events):$/;"	m	class:TerminalSettingsDialog
+OnClear	.\wxTerminal.py	/^    def OnClear(self, event):$/;"	m	class:TerminalFrame
+OnClose	.\wxTerminal.py	/^    def OnClose(self, event):$/;"	m	class:TerminalFrame
+OnExit	.\wxTerminal.py	/^    def OnExit(self, event):$/;"	m	class:TerminalFrame
+OnInit	.\wxSerialConfigDialog.py	/^    def OnInit(self):$/;"	m	class:MyApp
+OnInit	.\wxTerminal.py	/^    def OnInit(self):$/;"	m	class:MyApp
+OnKey	.\wxTerminal.py	/^    def OnKey(self, event):$/;"	m	class:TerminalFrame
+OnOK	.\wxSerialConfigDialog.py	/^    def OnOK(self, events):$/;"	m	class:SerialConfigDialog
+OnOK	.\wxTerminal.py	/^    def OnOK(self, events):$/;"	m	class:TerminalSettingsDialog
+OnPortSettings	.\wxTerminal.py	/^    def OnPortSettings(self, event=None):$/;"	m	class:TerminalFrame
+OnSaveAs	.\wxTerminal.py	/^    def OnSaveAs(self, event):$/;"	m	class:TerminalFrame
+OnSerialRead	.\wxTerminal.py	/^    def OnSerialRead(self, event):$/;"	m	class:TerminalFrame
+OnTermSettings	.\wxTerminal.py	/^    def OnTermSettings(self, event):$/;"	m	class:TerminalFrame
+OnTimeout	.\wxSerialConfigDialog.py	/^    def OnTimeout(self, events):$/;"	m	class:SerialConfigDialog
+PBYTE	.\scanwin32.py	/^PBYTE = ctypes.c_void_p$/;"	v
+PCTSTR	.\scanwin32.py	/^PCTSTR = ctypes.c_char_p$/;"	v
+PDWORD	.\scanwin32.py	/^PDWORD = ctypes.POINTER(DWORD)$/;"	v
+PSP_DEVICE_INTERFACE_DATA	.\scanwin32.py	/^PSP_DEVICE_INTERFACE_DATA = ctypes.POINTER(SP_DEVICE_INTERFACE_DATA)$/;"	v
+PSP_DEVICE_INTERFACE_DETAIL_DATA	.\scanwin32.py	/^PSP_DEVICE_INTERFACE_DETAIL_DATA = ctypes.c_void_p$/;"	v
+PSP_DEVINFO_DATA	.\scanwin32.py	/^PSP_DEVINFO_DATA = ctypes.POINTER(SP_DEVINFO_DATA)$/;"	v
+SERIALRX	.\wxTerminal.py	/^SERIALRX = wx.NewEventType()$/;"	v
+SHOW_ALL	.\wxSerialConfigDialog.py	/^SHOW_ALL = SHOW_BAUDRATE|SHOW_FORMAT|SHOW_FLOW|SHOW_TIMEOUT$/;"	v
+SHOW_BAUDRATE	.\wxSerialConfigDialog.py	/^SHOW_BAUDRATE   = 1<<0$/;"	v
+SHOW_FLOW	.\wxSerialConfigDialog.py	/^SHOW_FLOW       = 1<<2$/;"	v
+SHOW_FORMAT	.\wxSerialConfigDialog.py	/^SHOW_FORMAT     = 1<<1$/;"	v
+SHOW_TIMEOUT	.\wxSerialConfigDialog.py	/^SHOW_TIMEOUT    = 1<<3$/;"	v
+SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_A	.\scanwin32.py	/^SIZEOF_SP_DEVICE_INTERFACE_DETAIL_DATA_A = ctypes.sizeof(dummy)$/;"	v
+SPDRP_FRIENDLYNAME	.\scanwin32.py	/^SPDRP_FRIENDLYNAME = 12$/;"	v
+SPDRP_HARDWAREID	.\scanwin32.py	/^SPDRP_HARDWAREID = 1$/;"	v
+SPDRP_LOCATION_INFORMATION	.\scanwin32.py	/^SPDRP_LOCATION_INFORMATION = 13$/;"	v
+SP_DEVICE_INTERFACE_DATA	.\scanwin32.py	/^class SP_DEVICE_INTERFACE_DATA(ctypes.Structure):$/;"	c
+SP_DEVICE_INTERFACE_DETAIL_DATA_A	.\scanwin32.py	/^        class SP_DEVICE_INTERFACE_DETAIL_DATA_A(ctypes.Structure):$/;"	c	function:comports
+SP_DEVINFO_DATA	.\scanwin32.py	/^class SP_DEVINFO_DATA(ctypes.Structure):$/;"	c
+SerialConfigDialog	.\wxSerialConfigDialog.py	/^class SerialConfigDialog(wx.Dialog):$/;"	c
+SerialRxEvent	.\wxTerminal.py	/^class SerialRxEvent(wx.PyCommandEvent):$/;"	c
+SetupDiDestroyDeviceInfoList	.\scanwin32.py	/^SetupDiDestroyDeviceInfoList = ctypes.windll.setupapi.SetupDiDestroyDeviceInfoList$/;"	v
+SetupDiEnumDeviceInterfaces	.\scanwin32.py	/^SetupDiEnumDeviceInterfaces = ctypes.windll.setupapi.SetupDiEnumDeviceInterfaces$/;"	v
+SetupDiGetClassDevs	.\scanwin32.py	/^SetupDiGetClassDevs = ctypes.windll.setupapi.SetupDiGetClassDevsA$/;"	v
+SetupDiGetDeviceInterfaceDetail	.\scanwin32.py	/^SetupDiGetDeviceInterfaceDetail = ctypes.windll.setupapi.SetupDiGetDeviceInterfaceDetailA$/;"	v
+SetupDiGetDeviceRegistryProperty	.\scanwin32.py	/^SetupDiGetDeviceRegistryProperty = ctypes.windll.setupapi.SetupDiGetDeviceRegistryPropertyA$/;"	v
+StartThread	.\wxTerminal.py	/^    def StartThread(self):$/;"	m	class:TerminalFrame
+StopThread	.\wxTerminal.py	/^    def StopThread(self):$/;"	m	class:TerminalFrame
+TerminalFrame	.\wxTerminal.py	/^class TerminalFrame(wx.Frame):$/;"	c
+TerminalSettingsDialog	.\wxTerminal.py	/^class TerminalSettingsDialog(wx.Dialog):$/;"	c
+TerminalSetup	.\wxTerminal.py	/^class TerminalSetup:$/;"	c
+ULONG	.\scanwin32.py	/^ULONG = ctypes.c_ulong$/;"	v
+ULONG_PTR	.\scanwin32.py	/^ULONG_PTR = ctypes.POINTER(ULONG)$/;"	v
+ValidHandle	.\scanwin32.py	/^def ValidHandle(value):$/;"	f
+__attach_events	.\wxSerialConfigDialog.py	/^    def __attach_events(self):$/;"	m	class:SerialConfigDialog	file:
+__attach_events	.\wxTerminal.py	/^    def __attach_events(self):$/;"	m	class:TerminalFrame	file:
+__attach_events	.\wxTerminal.py	/^    def __attach_events(self):$/;"	m	class:TerminalSettingsDialog	file:
+__do_layout	.\wxSerialConfigDialog.py	/^    def __do_layout(self):$/;"	m	class:SerialConfigDialog	file:
+__do_layout	.\wxTerminal.py	/^    def __do_layout(self):$/;"	m	class:TerminalFrame	file:
+__do_layout	.\wxTerminal.py	/^    def __do_layout(self):$/;"	m	class:TerminalSettingsDialog	file:
+__init__	.\wxSerialConfigDialog.py	/^    def __init__(self, *args, **kwds):$/;"	m	class:SerialConfigDialog
+__init__	.\wxTerminal.py	/^    def __init__(self):$/;"	m	class:TerminalSetup
+__init__	.\wxTerminal.py	/^    def __init__(self, *args, **kwds):$/;"	m	class:TerminalFrame
+__init__	.\wxTerminal.py	/^    def __init__(self, *args, **kwds):$/;"	m	class:TerminalSettingsDialog
+__init__	.\wxTerminal.py	/^    def __init__(self, windowID, data):$/;"	m	class:SerialRxEvent
+__set_properties	.\wxSerialConfigDialog.py	/^    def __set_properties(self):$/;"	m	class:SerialConfigDialog	file:
+__set_properties	.\wxTerminal.py	/^    def __set_properties(self):$/;"	m	class:TerminalFrame	file:
+__set_properties	.\wxTerminal.py	/^    def __set_properties(self):$/;"	m	class:TerminalSettingsDialog	file:
+__str__	.\scanwin32.py	/^            def __str__(self):$/;"	m	class:comports.SP_DEVICE_INTERFACE_DETAIL_DATA_A	file:
+__str__	.\scanwin32.py	/^    def __str__(self):$/;"	m	class:GUID	file:
+__str__	.\scanwin32.py	/^    def __str__(self):$/;"	m	class:SP_DEVICE_INTERFACE_DATA	file:
+__str__	.\scanwin32.py	/^    def __str__(self):$/;"	m	class:SP_DEVINFO_DATA	file:
+_fields_	.\scanwin32.py	/^            _fields_ = [$/;"	v	class:comports.SP_DEVICE_INTERFACE_DETAIL_DATA_A
+_fields_	.\scanwin32.py	/^    _fields_ = [$/;"	v	class:GUID
+_fields_	.\scanwin32.py	/^    _fields_ = [$/;"	v	class:SP_DEVICE_INTERFACE_DATA
+_fields_	.\scanwin32.py	/^    _fields_ = [$/;"	v	class:SP_DEVINFO_DATA
+_fields_	.\scanwin32.py	/^    _fields_=[("d1", DWORD), ("d2", CHAR)]$/;"	v	class:dummy
+_pack_	.\scanwin32.py	/^    _pack_ = 1$/;"	v	class:dummy
+app	.\wxSerialConfigDialog.py	/^    app = MyApp(0)$/;"	v	class:MyApp
+app	.\wxTerminal.py	/^    app = MyApp(0)$/;"	v	class:MyApp
+comports	.\scanwin32.py	/^def comports(available_only=True):$/;"	f
+ctypes	.\scanwin32.py	/^import ctypes$/;"	i
+dummy	.\scanwin32.py	/^class dummy(ctypes.Structure):$/;"	c
+enumerate	.\wxSerialConfigDialog.py	/^    def enumerate(sequence):$/;"	f
+eventType	.\wxTerminal.py	/^    eventType = SERIALRX$/;"	v	class:SerialRxEvent
+re	.\scanwin32.py	/^import re$/;"	i
+scan	.\scan.py	/^def scan():$/;"	f
+serial	.\scan.py	/^import serial$/;"	i
+serial	.\scanwin32.py	/^    import serial$/;"	i
+serial	.\wxSerialConfigDialog.py	/^import serial$/;"	i
+serial	.\wxTerminal.py	/^import serial$/;"	i
+threading	.\wxTerminal.py	/^import threading$/;"	i
+tmp	.\scan.py	/^    tmp = input("key input")$/;"	v
+wx	.\wxSerialConfigDialog.py	/^import wx$/;"	i
+wx	.\wxTerminal.py	/^import wx$/;"	i
+wxSerialConfigDialog	.\wxTerminal.py	/^import wxSerialConfigDialog$/;"	i
