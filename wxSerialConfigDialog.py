@@ -123,7 +123,7 @@ class SerialConfigDialog(wx.Dialog):
         #attach the event handlers
         self.__attach_events()
 
-    def scan():
+    def scan(self):
         """scan for available ports. return a list of tuples (num, name)"""
         available = []
         for i in range(256):
