@@ -42,6 +42,8 @@ NEWLINE_CR      = 0
 NEWLINE_LF      = 1
 NEWLINE_CRLF    = 2
 
+VERSION_LEN = 8
+
 class TerminalSetup:
     """Placeholder for various terminal settings. Used to pass the
        options to the TerminalSettingsDialog."""
@@ -116,6 +118,25 @@ class TerminalSettingsDialog(wx.Dialog):
 
 # end of class TerminalSettingsDialog
 
+class DownloadCode():
+    """Download protocol"""
+    data = []
+
+    def __init__(self):
+        pass
+    
+    def __HandShake(self):
+        char = 0
+        deadline = time.time() + TIMEOUT
+        while(HandShakeChar != 'H' and time.time() < deadline):
+            self.serial.write('H') 
+            HandShakeChar = self.serial.read(1)
+            print HandShakeChar
+        version = self.serial.read(VERSION_LEN)
+        print version 
+
+    def BeginDownload(self):
+        __HandShake()        
 
 class TerminalFrame(wx.Frame):
     """Simple terminal program for wxPython"""
@@ -244,8 +265,11 @@ class TerminalFrame(wx.Frame):
             f = file(filename, 'rb')
             for char in f.read():
                 byte = ord(char)
+                
      #           self.text_ctrl_output.SetValue(char)
      #           print "%x" %byte
+            DownloadCode.data = f
+            DownloadCode.BeginDownload()
             f.close()
 
     def OnReceiveFile(self, event):
